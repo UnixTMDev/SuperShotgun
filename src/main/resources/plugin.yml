@@ -1,0 +1,14 @@
+name: SuperShotgun
+version: 69
+description: Awesomeness
+author: UnixTMDev
+website: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+main: dev.unixtm.supershotgun.SpigotPlugin
+
+commands:
+    shotgun:
+        description: make shotgub
+        usage: /shotgun <arrow count> <arrow speed> <arrow spread>
+
+permissions: {}
