@@ -30,12 +30,11 @@ public class SpigotPlugin extends JavaPlugin implements Listener {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
         getCommand("shotgun").setExecutor(new ShotgunCommand(this));
-        getLogger().info("BowBlockBreaker has been enabled!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("BowBlockBreaker has been disabled!");
+        getLogger().info("bye bye");
     }
 
     @EventHandler
